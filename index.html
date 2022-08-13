@@ -1,56 +1,113 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Mi Portfolio</title>
     <link rel="stylesheet" href="style.css">
-</head>
+     <!-- Bootstrap CSS  atado y compilado-->
+     <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
+     <!--CDN a través de jsDelivr-->
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    </head>
 <body>
-    <img src="Pablo.jpg">
-    <h1>Mi Portfolio</h1>
-    
-    <div class="objetivo">
-        <h2>Objetivo Laboral</h2>
-        <p>Es mi deseo poder incorporarme a su prestigiosa empresa, básicamente en una área donde se lleven a cabo las relaciones interpersonales, el trato con clientes, brindando atención a los mismos, ya que mis trabajos anteriores se basaron fundamentalmente en ello. De todas formas estoy capacitado a enfrentar nuevos desafíos para lograr objetivos que impliquen un crecimiento tanto personal como profesional. </p>
-    </div>
-    
-    <div class="perfil">
-        <h2> Perfil Profesional</h2>
-        <p>Me considero una persona responsable, creativo, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organización me pudiera plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, en condiciones de alta presión, así como para resolver problemas eficientemente y lograr las metas trazadas por la empresa y mi grupo de trabajo. </p>
-    </div>
-    
-    <div class="antecedentes">
-        <h2>Antecedentes laborales </h2>
-        <h3> Supervisor de Cajas</h3>
-        <p> Desde 03/04/2007 al 08/02/2013<br>
-        <strong>Compañía Financiera Argentina S.A.</strong></p>
-        <p>Las principales características de mi desempeño en Compañía Financiera Argentina S.A. fueros la apertura y cierre de caja, Pago de haberes (jubilaciones y pensiones), liquidación y cobranza de préstamos personales, emisión y cobranza de tarjetas de crédito ( Visa / Mastercard), transferencias de dinero, control de stock de tarjetas de crédito, manejo de tesoro, armado y control de remesas, atención a transportadoras de caudales, supervisión de seguridad de la dependencia, atención de inspecciones del BCRA, apertura, cierre y conciliación de cajas. Apertura y cierre de sucursal. </p>
-        <h3>Administrativo / Cajero </h3>
-        <p> Desde 05/04/2004 al 30/11/2006<br>
-        <strong>MBELL SRL</strong></p>
-        <p> Las principales tareas eran administrativas, contables y operativas con personal a cargo, manejo de fondos y atención a público masivo. </p>
-    </div>
-    
-    <div class="formacion"> 
-        <h2>Formación académica</h2>
-        <p><strong>1989-1993	Bachiller comercial</strong><br>Instituto Adveniat</p>
-        <h2>Otros Conocimientos</h2>
-        <P><storng>Idiomas	Inglés:</storng> Nivel Medio.</P>
-        
-    </div>
+   
+   
+    <div class="container-fluid">
+        <div class="row" id="logos">
+            <div class="col-11">
+                <img src="Img/APlogo.png" id="APlogo">        
+                <a href=""><img src="img/facebook.png" id="facebook"></a>
+                <a href=""><img src="img/github.png"  id="github"></a>
+                <a href=""><img src="img/instagram.png" id="instagram"></a>
+                <a href=""><img src="img/linkedin.png" id="linkedin"></a>
+                <a href=""><img src="img/twitter.png" id="twitter"></a>
+            </div>
+        </div>
+    <div>
+    <img src="img/portfolio.png" id="portfolio">
+</div>
 
-    <div class="cursos">
-        <h2> Otros datos</h2>
-        <h3>Cursos y talleres de capacitación</h3>
-        <p>Mastercard Taller: Producto Mastercard Sistema Siscard</p>
-        <p>Aig Consumer Finance Group Curso: Liderar con calidad</p>
-        <p>Esama Consulting Curso: Calidad de atención y de servicios</p>
-        <p>Huatana – aprendizaje en organizaciones Curso: Conducción de equipos</p>
-        <p> Huatana – aprendizaje en organizaciones Curso: Liderazgo</p>
-        <p>Huatana – aprendizaje en organizaciones Taller: Líder cercano</p>
+<div class="row" id="contenido">
+    <div class="col-xs-12 col-sm-2 col-md-2 col-lg-2">
+        <img src="img/Pablo.jpg" class="img-fluid" id="fotoperfil">
     </div>
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3" id="nombreapellido">
+        <p id="nombre">Dafond Pablo Daniel</p>
+        <p>Full Stack Developer Jr</p>
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <span>
+            <h1>Acerca de mi</h1>
+            <h3>Perfil</h3>
+            <p>Me considero una persona responsable, creativo, con iniciativa y puntualidad, asumo con agrado los retos y metas que su organización me pudiera plantear; con buen manejo de relaciones interpersonales, facilidad para trabajar en equipo, en condiciones de alta presión, así como para resolver problemas eficientemente y lograr las metas trazadas por la empresa y mi grupo de trabajo.</p>
+            <h3>Objetivo</h3>
+            <p>Es mi deseo poder incorporarme a su prestigiosa empresa, básicamente en una área donde se lleven a cabo las relaciones interpersonales, el trato con clientes, brindando atención a los mismos, ya que mis trabajos anteriores se basaron fundamentalmente en ello. De todas formas estoy capacitado a enfrentar nuevos desafíos para lograr objetivos que impliquen un crecimiento tanto personal como profesional.</p>
+        </span>
+    </div>
+</div>
+<div class="row">
+    <div class="col-2" class="logoempresas">
+        <img src="img/is.png" id="logois">
+        <img src="img/Efectivo si.png" id="logoefectivosi">
+        <img src="img/mbell.png" id="logombell">
+
+    </div>
+    <div class ="col-10">
+    <h2>Antecedentes laborales </h2>
+            <h3> Administrativo</h3>
+            <p> Desde 01/04/2014 al 08/04/20<br>
+            <strong>Indumentaria Segura SRL</strong></p>
+            <p>Las principales características de mi desempeño en Indumentaria Segura SRL. fueron el pago a proveedores, liquidación de haberes, control de stock y compras. </p>
+            <h3> Supervisor de Cajas</h3>
+            <p> Desde 03/04/2007 al 08/02/2013<br>
+            <strong>Compañía Financiera Argentina S.A.</strong></p>
+            <p>Las principales características de mi desempeño en Compañía Financiera Argentina S.A. fueron la apertura y cierre de caja, Pago de haberes (jubilaciones y pensiones), liquidación y cobranza de préstamos personales, emisión y cobranza de tarjetas de crédito ( Visa / Mastercard), transferencias de dinero, control de stock de tarjetas de crédito, manejo de tesoro, armado y control de remesas, atención a transportadoras de caudales, supervisión de seguridad de la dependencia, atención de inspecciones del BCRA, apertura, cierre y conciliación de cajas. Apertura y cierre de sucursal. </p>
+            <h3>Administrativo / Cajero </h3>
+            <p> Desde 05/04/2004 al 30/11/2006<br>
+            <strong>MBELL SRL</strong></p>
+            <p> Las principales tareas eran administrativas, contables y operativas con personal a cargo, manejo de fondos y atención a público masivo. </p>
     
+        </div>
+    </div>
+</div>
+</div>
+
+
+  
+<!--Bootstrap JS atado y compilado -->
+<script src="dist/bootstrap/js/bootstrap.bundle.min.js"> </script>
+<!--CDN a través de jsDelivr-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
 </body>
+
 </html>
+
+<!--
+    
+   
+        
+    
+        <div class="formacion"> 
+            <h2>Formación académica</h2>
+            <p><strong>1989-1993	Bachiller comercial</strong><br>Instituto Adveniat</p>
+            <h2>Otros Conocimientos</h2>
+            <P><storng>Idiomas	Inglés:</storng> Nivel Medio.</P>
+        
+        </div>
+
+        <div class="cursos">
+            <h2> Otros datos</h2>
+            <h3>Cursos y talleres de capacitación</h3>
+            <p>Mastercard Taller: Producto Mastercard Sistema Siscard</p>
+            <p>Aig Consumer Finance Group Curso: Liderar con calidad</p>
+            <p>Esama Consulting Curso: Calidad de atención y de servicios</p>
+            <p>Huatana – aprendizaje en organizaciones Curso: Conducción de equipos</p>
+            <p> Huatana – aprendizaje en organizaciones Curso: Liderazgo</p>
+            <p>Huatana – aprendizaje en organizaciones Taller: Líder cercano</p>
+        </div>
+    </section>
+</body>
+-->
+
