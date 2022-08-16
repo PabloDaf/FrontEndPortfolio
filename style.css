@@ -1,5 +1,7 @@
-
-#logos{
+*{
+  font-size: 15px;
+}
+.logos{
   background-color: black;
 }
 #APlogo{
@@ -9,6 +11,7 @@ div a img{
   width: 30px;
   float: right;
   margin-top: 28px;
+  margin-right: 10px;
 }
 #portfolio{
   width: 100%;
@@ -43,14 +46,33 @@ div a img{
 }
 #logoefectivosi{
   width: 250px;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: -30px;
 }
 #logombell{
   width: 100px;
-  margin-top: 150px;
+  margin-top: 75px;
   margin-left: 50px;
 }
+.formacionycursos{
+text-align: center;
+padding-top: 5%;
+}
+.antecedentes{
+  padding-top: 5%;
+}
+.botonlogin{
+  width: 150px;
+  float: right;
+  text-align: center;
+  margin-right: -350px;
+  margin-top: 22px;
+  border-radius: 5px;
+
+
+}
+
+
 
 
  

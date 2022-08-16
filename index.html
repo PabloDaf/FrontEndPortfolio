@@ -10,22 +10,44 @@
      <link href="dist/bootstrap/css/bootstrap.min.css" rel="stylesheet"> 
      <!--CDN a través de jsDelivr-->
      <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    
     </head>
 <body>
    
    
     <div class="container-fluid">
-        <div class="row" id="logos">
-            <div class="col-11">
+        <div class="logos">
+        <div class="row">
+          <!--
+            
+                <h5>Formulario Login</h5>
+                <input class="controls" type="text" name="usuario" value="" placeholder="Usuario">
+                <input class="controls" type="password" name="contrasena" value="" placeholder="Contraseña">
+                <input class="buttons" type="submit" name="" value="Ingresar">
+                <p><a href="#">¿Olvidastes tu Contraseña?</a></p>
+          
+              </form>
+            -->
+           
+
+            <div class="col-10">
                 <img src="Img/APlogo.png" id="APlogo">        
                 <a href=""><img src="img/facebook.png" id="facebook"></a>
                 <a href=""><img src="img/github.png"  id="github"></a>
                 <a href=""><img src="img/instagram.png" id="instagram"></a>
                 <a href=""><img src="img/linkedin.png" id="linkedin"></a>
                 <a href=""><img src="img/twitter.png" id="twitter"></a>
+                <div class="botonlogin">
+        
+               <button type="button" class="btn btn-outline-light">Iniciar sesión</button>
+            
+               
+            </div>
+            
             </div>
         </div>
-    <div>
+    </div>
+        <div>  
     <img src="img/portfolio.png" id="portfolio">
 </div>
 
@@ -48,14 +70,16 @@
     </div>
 </div>
 <div class="row">
-    <div class="col-2" class="logoempresas">
-        <img src="img/is.png" id="logois">
-        <img src="img/Efectivo si.png" id="logoefectivosi">
-        <img src="img/mbell.png" id="logombell">
-
+    <div class="col-xs-3 col-sm-3 col-md-3 col-lg-3">
+        <div class="d-none d-sm-block">
+            <img src="img/is.png" id="logois">
+            <img src="img/Efectivo si.png" id="logoefectivosi">
+            <img src="img/mbell.png" id="logombell">
+         </div>
     </div>
-    <div class ="col-10">
-    <h2>Antecedentes laborales </h2>
+    <div class="col-xs-12 col-sm-8 col-md-8 col-lg-8">
+        <div class="antecedentes">
+            <h2>Antecedentes laborales </h2>
             <h3> Administrativo</h3>
             <p> Desde 01/04/2014 al 08/04/20<br>
             <strong>Indumentaria Segura SRL</strong></p>
@@ -68,46 +92,45 @@
             <p> Desde 05/04/2004 al 30/11/2006<br>
             <strong>MBELL SRL</strong></p>
             <p> Las principales tareas eran administrativas, contables y operativas con personal a cargo, manejo de fondos y atención a público masivo. </p>
-    
+        
         </div>
     </div>
-</div>
-</div>
+    </div>
 
+    <div class="row">
+        <div class="formacionycursos">
+            <div class="formacion"> 
+                <h2>Formación académica</h2>
+                <p><strong>1989-1993	Bachiller comercial</strong><br>Instituto Adveniat</p>
+            </div>
+            <div class="cursos">
+                <h2> Otros datos</h2>
+                <h3>Cursos y talleres de capacitación</h3>
+                <p>Mastercard Taller: Producto Mastercard Sistema Siscard</p>
+                <p>Aig Consumer Finance Group Curso: Liderar con calidad</p>
+                <p>Esama Consulting Curso: Calidad de atención y de servicios</p>
+                <p>Huatana – aprendizaje en organizaciones Curso: Conducción de equipos</p>
+                <p> Huatana – aprendizaje en organizaciones Curso: Liderazgo</p>
+                <p>Huatana – aprendizaje en organizaciones Taller: Líder cercano</p>
+                
+            </div>
+        </div>
 
-  
+    </div>
+
 <!--Bootstrap JS atado y compilado -->
 <script src="dist/bootstrap/js/bootstrap.bundle.min.js"> </script>
 <!--CDN a través de jsDelivr-->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin= "anonymous"></script>
+
 </body>
 
 </html>
 
-<!--
-    
+<!--<form method="post" 
+               target="print_popup" 
+               action="/destino-fin.php"
+               onsubmit="window.open('about:blank','print_popup','width=1000,height=800');">
+               </form>-->
    
-        
-    
-        <div class="formacion"> 
-            <h2>Formación académica</h2>
-            <p><strong>1989-1993	Bachiller comercial</strong><br>Instituto Adveniat</p>
-            <h2>Otros Conocimientos</h2>
-            <P><storng>Idiomas	Inglés:</storng> Nivel Medio.</P>
-        
-        </div>
-
-        <div class="cursos">
-            <h2> Otros datos</h2>
-            <h3>Cursos y talleres de capacitación</h3>
-            <p>Mastercard Taller: Producto Mastercard Sistema Siscard</p>
-            <p>Aig Consumer Finance Group Curso: Liderar con calidad</p>
-            <p>Esama Consulting Curso: Calidad de atención y de servicios</p>
-            <p>Huatana – aprendizaje en organizaciones Curso: Conducción de equipos</p>
-            <p> Huatana – aprendizaje en organizaciones Curso: Liderazgo</p>
-            <p>Huatana – aprendizaje en organizaciones Taller: Líder cercano</p>
-        </div>
-    </section>
-</body>
--->
 
