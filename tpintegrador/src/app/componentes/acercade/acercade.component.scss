@@ -1,0 +1,45 @@
+.row{
+    padding: 20px;
+}
+div{
+  text-align: center;
+}
+#fotoperfil{
+  position: absolute;
+  width: 15%;
+  border-radius: 100%;
+  left: 3%;
+  top: 400px;
+  box-shadow: 10px 10px 8px grey;
+}
+#nombre{
+font-weight: bold;
+margin-top: 45%;
+margin-left: 50%;
+}
+#titulo{
+    margin-left: 50%;
+   
+}
+.acerca{
+  margin-top: 5%;
+}
+.nombreapellido{
+  margin-top: -5%;
+}
+@media (max-width: 600px){
+  #nombre, #titulo{
+  color: chocolate;
+  margin: auto;  
+  }
+
+}
+@media (max-width: 450px){
+  #fotoperfil{
+  position: relative;;
+    margin-top: -950px;
+    border-radius: revert;
+    width: 20%;
+  }
+
+}

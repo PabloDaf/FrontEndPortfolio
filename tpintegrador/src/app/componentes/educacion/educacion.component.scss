@@ -1,0 +1,17 @@
+.row{
+    padding: 10px;
+}
+ul{
+    margin-left: 150px;
+}
+h1{
+    margin-left: 100px;
+}
+@media (max-width: 450px){
+    div ,h1, ul, li{
+        margin-left: -10px;
+        text-align: center;
+    }
+    }
+  
+  
