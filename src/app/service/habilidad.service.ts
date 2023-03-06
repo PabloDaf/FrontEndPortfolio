@@ -8,7 +8,7 @@ import { Habilidad } from '../model/habilidad';
 })
 export class HabilidadService {
   
-  expURL = 'https://tpintegradorporfolio-pablodaf.koyeb.app/habilidad/';
+  expURL = 'https://pablodaf-pablodaf.koyeb.app/habilidad/';
   
   constructor(private httpClient:HttpClient) { }
 

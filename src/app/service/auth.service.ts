@@ -9,7 +9,7 @@ import { NuevoUsuario } from '../model/nuevo-usuario';
   providedIn: 'root'
 })
 export class AuthService {
-  authURL = 'https://tpintegradorporfolio-pablodaf.koyeb.app/auth'
+  authURL = 'https://pablodaf-pablodaf.koyeb.app/auth'
   
 
   constructor(private httpClient: HttpClient) { }

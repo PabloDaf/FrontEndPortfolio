@@ -7,7 +7,7 @@ import { Educacion } from '../model/educacion';
   providedIn: 'root'
 })
 export class EducacionService {
-URL = 'https://tpintegradorporfolio-pablodaf.koyeb.app/educacion/';
+URL = 'https://pablodaf-pablodaf.koyeb.app/educacion/';
   constructor(private httpClient : HttpClient) { }
 
 public lista(): Observable<Educacion[]>{

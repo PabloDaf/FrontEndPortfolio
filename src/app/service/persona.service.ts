@@ -7,7 +7,7 @@ import { Persona} from '../model/persona.model';
   providedIn: 'root'
 })
 export class PersonaService {
-URL = 'https://tpintegradorporfolio-pablodaf.koyeb.app/personas/'
+URL = 'https://pablodaf-pablodaf.koyeb.app/personas/'
   constructor(private httpClient: HttpClient) { }
 
     public lista(): Observable<Persona[]>{
