@@ -1,0 +1,15 @@
+.container{
+    padding: 10px;
+    margin-left: 3cm;
+}
+ul{
+    margin-left: 30px;
+}
+@media (max-width: 450px){
+    div ,h1{
+        margin-left: -100px;
+        text-align: center;
+        
+    }
+  
+  }
