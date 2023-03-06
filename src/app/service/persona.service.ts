@@ -17,10 +17,10 @@ URL = 'https://pablodaf-pablodaf.koyeb.app/personas/'
     public detail(id: number):Observable<Persona>{
       return this.httpClient.get<Persona>(this.URL + `detail/${id}`);
     }
-    /*public save(persona: Persona): Observable<any>{
+    public save(persona: Persona): Observable<any>{
       return this.httpClient.post<any>(this.URL + 'create', persona);
     }
-    */
+    
     public update(id: number, persona: Persona):Observable<any>{
       return this.httpClient.put<any>(this.URL + `update/${id}`, persona);
     }
