@@ -17,7 +17,7 @@ uploadBytes(imgRef, file)
 }
 /* traemos las imagenes */
 getImages(){
-const imagesRef = ref(this.storage, 'imagen')
+const imagesRef = ref(this.storage, `imagen`)
 list(imagesRef)
 .then(async response =>{
   for(let item of response.items){
