@@ -14,13 +14,13 @@ educacion : Educacion[] = [];
   constructor(private educacionS: EducacionService, private tokenService: TokenService) { }
   isLogged = false;
   ngOnInit(): void {
-  this.cargarEducacion();
-  if(this.tokenService.getToken()){
-    this.isLogged = true;
-  }else{
-    this.isLogged=false;
+    this.cargarEducacion();
+    if(this.tokenService.getToken()){
+      this.isLogged = true;
+    } else {
+      this.isLogged = false;
   }
-  }
+}
 
   cargarEducacion():void{
     this.educacionS.lista().subscribe(
