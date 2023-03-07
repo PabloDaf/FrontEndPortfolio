@@ -44,6 +44,6 @@ export class EditacercadeComponent implements OnInit {
   uploadImage($event: any){
     const id = this.activatedRouter.snapshot.params['id'];
     const name = "perfil_" + id;
-    this.ImageService.uploadImage($event, name)
+    this.imageService.uploadImage($event, name)
   }
 }

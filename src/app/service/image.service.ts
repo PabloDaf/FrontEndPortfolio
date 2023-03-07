@@ -11,7 +11,7 @@ url: string ="";
   /* subimos las imagenes */
 public uploadImage($event: any, name: string){
 const file = $event.target.files[0]
-const imgRef = ref(this.storage, `imagen/`+ name)
+const imgRef = ref(this.storage, 'imagen/'+ name)
 uploadBytes(imgRef, file)
 .then(response => {this.getImages()})
 .catch(error =>console.log(error))
