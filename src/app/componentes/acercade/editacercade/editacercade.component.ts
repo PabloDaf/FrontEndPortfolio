@@ -12,7 +12,10 @@ import { PersonaService } from 'src/app/service/persona.service';
 export class EditacercadeComponent implements OnInit {
   persona: Persona = null;
   imageService: any;
-  constructor(private activatedRouter: ActivatedRoute, private personaService: PersonaService, private router:Router, public ImageService: ImageService) { }
+  constructor(private activatedRouter: ActivatedRoute, 
+    private personaService: PersonaService, 
+    private router:Router, 
+    public ImageService: ImageService) { }
 
   ngOnInit(): void {
     const id = this.activatedRouter.snapshot.params['id'];
@@ -20,7 +23,7 @@ export class EditacercadeComponent implements OnInit {
       data => {
         this.persona = data;
       }, err =>{
-        alert("Error al modificar la educacion");
+        alert("Error al modificar la Persona");
         this.router.navigate(['']);
       }
       )
@@ -42,6 +45,6 @@ export class EditacercadeComponent implements OnInit {
   uploadImage($event: any){
     const id = this.activatedRouter.snapshot.params['id'];
     const name = "perfil_" + id;
-    this.ImageService.uploadImage($event, name)
+    this.imageService.uploadImage($event, name)
   }
 }
