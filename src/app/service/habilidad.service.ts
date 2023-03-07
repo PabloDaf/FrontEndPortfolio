@@ -8,27 +8,27 @@ import { Habilidad } from '../model/habilidad';
 })
 export class HabilidadService {
   
-  expURL = 'https://pablodaf-pablodaf.koyeb.app/habilidad/';
+  URL = 'https://pablodaf-pablodaf.koyeb.app/habilidad/';
   
   constructor(private httpClient:HttpClient) { }
 
   public lista(): Observable<Habilidad[]>{
-    return this.httpClient.get<Habilidad[]>(this.expURL + 'lista');
+    return this.httpClient.get<Habilidad[]>(this.URL + 'lista');
   }
 
   public detail(id: number): Observable<Habilidad>{
-    return this.httpClient.get<Habilidad>(this.expURL + `detail/${id}`);
+    return this.httpClient.get<Habilidad>(this.URL + `detail/${id}`);
   } 
 
   public save(habilidad: Habilidad): Observable<any>{
-    return this.httpClient.post<any>(this.expURL + 'create', habilidad);
+    return this.httpClient.post<any>(this.URL + 'create', habilidad);
   }
 
   public update(id: number, habilidad: Habilidad): Observable<any>{
-    return this.httpClient.put<any>(this.expURL + `update/${id}`, habilidad);
+    return this.httpClient.put<any>(this.URL + `update/${id}`, habilidad);
   }
 
   public delete(id: number): Observable<any>{
-    return this.httpClient.delete<any>(this.expURL + `delete/${id}`);
+    return this.httpClient.delete<any>(this.URL + `delete/${id}`);
   }
 }
