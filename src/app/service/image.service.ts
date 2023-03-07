@@ -10,14 +10,14 @@ url: string ="";
 /* subimos las imagenes */
 public uploadImage($event: any, name: string){
 const file = $event.target.files[0]
-const imgRef = ref(this.storage, `imagen/`+ name)
+const imgRef = ref(this.storage, `imagen/` + name)
 uploadBytes(imgRef, file)
 .then(Response => {this.getImages()})
 .catch(error =>console.log(error))
 }
 /* traemos las imagenes */
 getImages(){
-const imagesRef = ref(this.storage, `imagen`)
+const imagesRef = ref(this.storage, 'imagen')
 list(imagesRef)
 .then(async response =>{
   for(let item of response.items){
