@@ -5,14 +5,14 @@ import { Storage, ref, uploadBytes, list, getDownloadURL } from '@angular/fire/s
   providedIn: 'root'
 })
 export class ImageService {
-url: string ='';
+url: string ="";
   constructor(private storage: Storage) { }
 /* subimos las imagenes */
 public uploadImage($event: any, name: string){
 const file = $event.target.files[0]
 const imgRef = ref(this.storage, 'imagen/'+ name)
 uploadBytes(imgRef, file)
-.then(Response => (this.getImages()))
+.then(Response => {this.getImages()})
 .catch(error =>console.log(error))
 }
 /* traemos las imagenes */
