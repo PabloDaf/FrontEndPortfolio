@@ -8,8 +8,8 @@ import { Habilidad } from '../model/habilidad';
 })
 export class HabilidadService {
   
-  //URL = 'https://pablodaf-pablodaf.koyeb.app/habilidad/';
-  URL = 'http://localhost:8080/habilidad/';
+  URL = 'https://pablodaf-pablodaf.koyeb.app/habilidad/';
+  //URL = 'http://localhost:8080/habilidad/';
   
   constructor(private httpClient:HttpClient) { }
 
