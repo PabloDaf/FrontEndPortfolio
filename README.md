@@ -1,27 +1,22 @@
-# Tpintegrador
+# Portfolio Web - Argentina Programa 2023
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.1.3.
+Este proyecto es una app desarrollada sobre Angular que, consumiendo los servicios de una API específca, reproduce, crea, modifica y/o elimina elementos propios de un CV tales como introduccion, experiencia, habilidades y un portfolio de proyectos. El presente trabajo se desarrolló como proyecto final para el programa de capacitación Argentina Programa - 2023.
 
-## Development server
+## Teconologías usadas:
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+Algunas de las tecnologías utilizadas en este proyecto son:
 
-## Code scaffolding
+Angular
+Angular Bootstrap
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Pendientes:
 
-## Build
+Si bien en esta instancia el proyecto se encuentra plenamente funcional, existen una serie de features y de correcciones de errores que me gustaría implementar. En la medida que vaya disponiendo de tiempo libre y logre capacitarme lo iré enriqueciendo.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Otros comentarios:
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+El presente trabajo es completamente OpenSource. Cualquier comentario bug o sugerencia es bienvenido, por aqui mismo.
 
-## Running end-to-end tests
+## Muchas gracias por visitar mi Repositorio!!!
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.

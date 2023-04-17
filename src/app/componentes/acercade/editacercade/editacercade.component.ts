@@ -40,7 +40,7 @@ export class EditacercadeComponent implements OnInit {
         this.router.navigate(['']);
       }
     )
-}
+    }
   
   uploadImage($event: any){
     const id = this.activatedRouter.snapshot.params['id'];

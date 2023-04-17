@@ -1,11 +1,14 @@
 import { Injectable } from '@angular/core';
 import { Storage, ref, uploadBytes, list, getDownloadURL } from '@angular/fire/storage';
 
+
 @Injectable({
   providedIn: 'root'
 })
 export class ImageService {
-url: string ="";
+  url: any;
+  name: string;
+  
   constructor(private storage: Storage) { }
 
   /* subimos las imagenes */
@@ -28,4 +31,5 @@ list(imagesRef)
 })
 .catch(error => console.log(error));
 }
+ 
 }

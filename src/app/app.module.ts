@@ -26,7 +26,9 @@ import { EditacercadeComponent } from './componentes/acercade/editacercade/edita
 import { initializeApp,provideFirebaseApp } from '@angular/fire/app';
 import { environment } from '../environments/environment';
 import { provideStorage,getStorage } from '@angular/fire/storage';
-
+import { ProyectoComponent } from './componentes/proyecto/proyecto.component';
+import { EditproyectoComponent } from './componentes/proyecto/editproyecto/editproyecto.component';
+import { NewproyectoComponent } from './componentes/proyecto/newproyecto/newproyecto.component';
 
 @NgModule({
   declarations: [
@@ -49,6 +51,9 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     EditHabilidadComponent,
     NewHabilidadComponent,
     EditacercadeComponent,
+    ProyectoComponent,
+    EditproyectoComponent,
+    NewproyectoComponent,
     
    
   ],
@@ -60,7 +65,7 @@ import { provideStorage,getStorage } from '@angular/fire/storage';
     FormsModule,
     provideFirebaseApp(() => initializeApp(environment.firebase)),
     provideStorage(() => getStorage()),
-
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
